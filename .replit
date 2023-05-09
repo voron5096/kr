@@ -1,4 +1,4 @@
-run = "clang++ main.cpp"
+run = "clang++ КВ_1/main.cpp"
 
 [nix]
 channel = "stable-22_11"
