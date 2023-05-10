@@ -8,10 +8,10 @@
 using namespace std;
 
 class cl_base {
-	string s_name; // строковое поле для имени каждого объекта
-	cl_base* p_head_object; // указатель головного объекта (главного / родительского)
+	string s_name; // Наименование объекта: Публичное не допускается!
+	cl_base* p_head_object; // Указатель на головной объект: Публичное не допускается!
+	vector <cl_base*> sub_objects; // Подчиненные объекты: Публичное не допускается!
 public:
-	vector <cl_base*> sub_objects; // класс-динамичесский массив для подчинённых объектов
 	
 	cl_base(cl_base* head_object, string s_name = "Base object"); // 2 параметр задаёт имя по умолчанию
 	~cl_base(); // для удаления всех подчинённых объектов
