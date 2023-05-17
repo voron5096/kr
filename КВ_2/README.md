@@ -18,4 +18,14 @@ void cl_base :: tree_traversal ( )
 
 Пример вывода на консоль дерева иерархии объектов.
   
+```
+root
+    ob_1
+        ob_2
+    ob_3
+        ob_4
+            ob_5
+        ob_6
+            ob_7
+```
 </details>
